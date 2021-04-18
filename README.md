@@ -5,8 +5,8 @@ This is mainly for myself to use. The script makes a few assumptions about the s
 that may not be correct for other systems.
 
 # Get scripts from install ISO
-Get the scripts with `wget https://raw.githubusercontent.com/tpenders/arch-install-script/master/after-chroot.sh` 
-and `wget https://raw.githubusercontent.com/tpenders/arch-install-script/master/install.sh`
+Get the scripts with `curl https://raw.githubusercontent.com/tpenders/arch-install-script/master/after-chroot.sh | sh`
+and `curl https://raw.githubusercontent.com/tpenders/arch-install-script/master/install.sh | sh`
 
 # Setup networking
 Before running the script an internet connection is needed. I set up my

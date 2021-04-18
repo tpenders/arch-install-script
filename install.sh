@@ -8,6 +8,6 @@ mkswap /dev/mmcblk0p2 &&
 swapon /dev/mmcblk0p2 &&
 mkfs.ext4 /dev/mmcblk0p3
 mount /dev/mmcblk0p3 /mnt &&
-pacstrap /mnt base base-devel linux linux-firmware &&
+pacstrap /mnt base linux linux-firmware &&
 genfstab -U /mnt >> /mnt/etc/fstab &&
 echo "run arch-chroot /mnt and then start the second script"
